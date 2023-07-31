@@ -1,0 +1,139 @@
+/* Contact Section */
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact .contactInfo {
+  background-color: rgb(107, 130, 175);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contactInfo .content {
+  border: 2px solid rgb(107, 130, 175);
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  height: 10rem;
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-border {
+  position: relative;
+}
+
+.contactInfo .content p {
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  opacity: 0;
+  transition: 0.5s linear;
+  max-height: 0;
+}
+.contactInfo .content i {
+  font-size: 3rem;
+  background-color: #3f4148;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  border-radius: 50%;
+  transition: 0.4s ease-in-out;
+}
+
+.contactInfo .content:hover i {
+  background: none;
+  color: #ccd8f0;
+  transform: scale(1.5);
+  opacity: 1;
+}
+.content i:hover {
+  box-shadow: none;
+}
+.contactInfo .content:hover p {
+  opacity: 1;
+  max-height: 40px;
+}
+.contactInfo .content:hover {
+  background-color: rgba(8, 20, 56, 0);
+}
+/**************************************************************************----------- End Of Home ----------------***********************************************************/
+.contact-test {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(145deg, var(--secondary), var(--primary));
+}
+.contact .contact-us {
+  border: 2px solid rgb(109, 126, 160);
+  display: flex;
+  height: 80vh;
+  box-shadow: 0 0.2rem 0.5rem #0006;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.contact-us .contactInfo,
+.contact-us .form {
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.contact-us .form {
+  background-color: var(--secondary);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 2rem;
+}
+
+.contact-us .form::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 1.4rem solid transparent;
+  border-right: 1.4rem solid var(--secondary);
+  top: 12%;
+  left: -40px;
+}
+.form h1 {
+  font: 500 1.8rem sans-serif;
+}
+.form input,
+.form textarea {
+  border-radius: 2rem;
+  background-color: unset;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid var(--primary);
+  color: #fff;
+}
+.form input:not(:first-child),
+.form textarea,
+.form button {
+  margin-top: 1rem;
+}
+.form textarea {
+  height: 7rem;
+  resize: none;
+}
+.form button {
+  background-color: var(--primary);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
