@@ -218,15 +218,22 @@ ul li {
     font-weight: 700;
   }
   .home-content h3 {
-    font-family: Poppins;
-    font-weight: 600;
+    /* font-family: "Poppins"; */
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 30px;
     animation: slideDown 2s ease forwards;
     animation-delay: 0.1s;
   }
-  
+  @keyframes moveText {
+    40%,
+    60% {
+      left: 100%;
+    }
+    100% {
+      left: 0%;
+    }
+  }
   .home-content h3 span {
     /* font-family: Rubik; */
     position: relative;
@@ -253,7 +260,7 @@ ul li {
     border-left: solid 3px #506cb5;
     animation: moveText 4s steps(var(--message-length)) infinite;
     animation-delay: 1.5s;
-    z-index: 1;
+    z-index: 0;
   }
   
 
@@ -322,7 +329,7 @@ ul li {
     position: absolute;
     gap: 20px;
     bottom: 30px;
-    height: 10%;
+    height: 5%;
     /* width: 170px; */
   }
   
