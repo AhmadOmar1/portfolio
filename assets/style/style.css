@@ -540,7 +540,7 @@ footer {
 
   .home-content h3 {
     z-index: 100;
-    font-size: 35px;
+    font-size: 25px;
     white-space: nowrap; /* Prevent text from wrapping to the next line */
     overflow: hidden; /* Hide any overflowing text */
   }
@@ -556,13 +556,13 @@ footer {
     animation: none;
   }
   .home-content .home-heading-2 {
-    font-size: 90px;
+    font-size: 100px;
     width: auto;
     height: auto;
   }
 
   .home-content h3 {
-    font-size: 20px;
+    font-size:20px;
     white-space: nowrap;
     overflow: hidden;
   }
