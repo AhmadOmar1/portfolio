@@ -15,7 +15,7 @@ document.querySelectorAll(".nav-link").forEach((item) =>
 
 const text = document.querySelector(".multiple-value");
 let index = 0;
-const values = ["Frontend-Devloper", "Designer", "Software Engineer"];
+const values = ["Frontend-Developer", "Designer", "Software Engineer"];
 
 const setText = () => {
   if (index >= values.length) {
