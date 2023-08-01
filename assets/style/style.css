@@ -192,7 +192,7 @@ ul li {
   background: linear-gradient(
     180deg,
     #fff 11.98%,
-     rgb(94, 145, 204) 70.31%,
+    rgb(94, 145, 204) 70.31%,
     #f29191c2 100%
   );
   background-clip: text;
@@ -215,7 +215,7 @@ ul li {
 
   background: linear-gradient(
     180deg,
-    rgb(159, 174, 227)  11.98%,
+    rgb(159, 174, 227) 11.98%,
     rgb(163, 93, 118) 70.31%,
     #bb7a9ea6 90%
   );
@@ -547,8 +547,11 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  h2 heading {
+    font-size: 50px;
+  }
   .home-content .home-heading {
-    font-size: 80px;
+    font-size: 60px;
     width: auto;
     height: auto;
   }
@@ -556,17 +559,28 @@ footer {
     animation: none;
   }
   .home-content .home-heading-2 {
-    font-size: 60px;
+    font-size: 40px;
     width: auto;
     height: auto;
   }
 
   .home-content h3 {
-    font-size:20px;
+    font-size: 15px;
     white-space: nowrap;
     overflow: hidden;
   }
   .home-img {
     display: none;
+  }
+
+  .btn-box a {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .home-social a {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
   }
 }

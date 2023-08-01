@@ -112,3 +112,18 @@
 .details p a {
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .project-content .content {
+    height: 20rem;
+    width: 15rem;
+  }
+  .content:hover .details p{
+    font-size: 0.88rem;
+  }
+  .content:hover .details {
+  top:0%;
+  background-color: rgba(35, 48, 91, 0.781);
+  padding: 30px;
+}
+}

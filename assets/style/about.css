@@ -130,15 +130,18 @@
 }
 @media screen and (max-width: 768px) {
   .about-img {
-    width: 17rem;
-    height: 17rem;
+    width: 15rem;
+    height: 15rem;
   }
 
   .about-container {
     text-align: start;
   }
+  .about-content h3{
+    font-size:1.3rem;
+  }
   .about-content p {
     width: auto;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 }
