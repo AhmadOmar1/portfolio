@@ -21,15 +21,20 @@
   .education-column .title {
     font-size: 2.5rem;
     margin: 0 0 1.5rem 2rem;
+    animation: slideLeft 0.5s ease forwards;
   }
   
   .education-column .education-box {
-    border-left: 2px solid rgb(25, 56, 120);
+    border-left: 2px solid rgb(25, 56, 120); 
+   animation: slideRight 0.5s ease forwards;
+    
+
   }
   
   .education-box .education-content {
     padding-left: 2rem;
     position: relative;
+
   }
   
   .education-content .content {
@@ -93,3 +98,9 @@
     color: #3a3d46;
   }
   
+  @media screen and (max-width: 768px) {
+     .education-column .title {
+      font-size: 2rem;
+      color: var(--light-accent);
+     }
+  }

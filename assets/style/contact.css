@@ -6,12 +6,17 @@
   justify-content: center;
 }
 
+.contact-us{
+
+}
 .contact .contactInfo {
   background-color: rgb(107, 130, 175);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+
+
 }
 
 .contactInfo .content {
@@ -41,7 +46,7 @@
 }
 .contactInfo .content i {
   font-size: 3rem;
-  background-color: #3f4148;
+  background-color: #343b52;
   width: 100px;
   height: 100px;
   text-align: center;
@@ -81,6 +86,7 @@
   box-shadow: 0 0.2rem 0.5rem #0006;
   border-radius: 50px;
   overflow: hidden;
+  animation: slideLeft 0.5s ease forwards;
 }
 .contact-us .contactInfo,
 .contact-us .form {
@@ -176,7 +182,8 @@
     height: 100px;
   }
   .contactInfo .content {
-    border: 1px solid #ccc;
+    width: 5rem;
+    height: 8rem;
   }
   .contactInfo .content p {
     font-size: 1rem;
