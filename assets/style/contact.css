@@ -86,7 +86,6 @@
 .contact-us .form {
   width: 60%;
   height: 100%;
-  overflow: hidden;
 }
 
 .contact-us .form {
@@ -101,14 +100,14 @@
 .contact-us .form::before {
   position: absolute;
   content: "";
-  width: 0;
-  height: 0;
   border: 1.4rem solid transparent;
   border-right: 1.4rem solid var(--secondary);
-  top: 12%;
+  top: 15%;
   left: -40px;
 }
 .form h1 {
+  margin-bottom: 1rem;
+
   font: 500 1.8rem sans-serif;
 }
 .form input,
@@ -136,4 +135,58 @@
   border: none;
   color: #fff;
   cursor: pointer;
+}
+
+/* Add media query for screen sizes up to 768px */
+@media screen and (max-width: 768px) {
+  section .heading{
+    font-size: 3rem;
+  }
+  /* Contact Section */
+  .contact .contact-us {
+    flex-direction: column;
+    height: auto;
+    border-radius: 2rem;
+  }
+
+  .contact-us .contactInfo,
+  .contact-us .form {
+    width: 100%;
+    height: auto;
+    margin: 0 0 2rem 0;
+  }
+  .contact-us .contactInfo {
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .contact-us .form::before {
+    display: none;
+  }
+
+  .form h1 {
+    font-size: 1.5rem;
+  }
+
+  .form input,
+  .form textarea {
+    font-size: 1rem;
+  }
+
+  .form textarea {
+    height: 100px;
+  }
+  .contactInfo .content {
+    border: 1px solid #ccc;
+  }
+  .contactInfo .content p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .contactInfo .content i {
+    font-size: 2rem;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+  }
 }
