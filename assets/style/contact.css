@@ -142,9 +142,7 @@
 
 /* Add media query for screen sizes up to 768px */
 @media screen and (max-width: 768px) {
-  section .heading{
-    font-size: 2rem;
-  }
+ 
   /* Contact Section */
   .contact .contact-us {
     flex-direction: column;
@@ -197,4 +195,10 @@
   footer{
     font-size: 0.7rem;
   }
+}
+
+@media screen and (max-width: 468px) {
+.form .heading{
+  font-size: 1.5rem !important;
+}
 }
