@@ -128,8 +128,8 @@
 }
 @media screen and (max-width: 768px) {
   .about-img {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
   }
   .about .heading {
     font-size: 45px;
@@ -139,19 +139,20 @@
     text-align: start;
   }
   .about-content h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .about-content p {
     width: auto;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 }
 
-@media screen and (max-width: 568px) {
-  .about-img{
-    width: 10rem;
-    height: 10rem;
+@media screen and (max-width: 500px) {
+    .about-img {
+    width: 14rem;
+    height: 14rem;
   }
+ 
   .about-content h3 {
     font-size: 1.2rem;
   }
