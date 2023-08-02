@@ -17,7 +17,7 @@
 }
 
 .education-row .education-column {
-  flex: 1 1 40rem;
+  flex: 1 1 25rem;
 }
 
 .education-column .title {
@@ -31,7 +31,7 @@
 }
 
 .education-column .education-box {
-  border-left: 2px solid rgb(25, 56, 120);
+  border-left: 2px solid var(--dark-accent);
   animation: slideRight 0.5s ease forwards;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .education-content .content {
-  border: solid 2px rgb(25, 56, 120);
+  border: solid 2px var(--dark-accent);
   border-radius: 5px;
   margin-bottom: 2rem;
   padding: 1.5rem;
