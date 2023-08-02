@@ -395,7 +395,7 @@ ul li {
   font-size: 4rem;
   text-align: center;
   margin-bottom: 3rem;
-  animation: slideTop 0.5s ease forwards;
+  animation: slideRight 1s ease forwards;
 }
 footer {
   text-align: center;
@@ -414,16 +414,17 @@ footer {
     opacity: 1;
   }
 }
-@keyframes slideTop {
+@keyframes slideFromBottom {
   0% {
-    transform: translateY(-100px);
+    transform: translateY(100%);
     opacity: 0;
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(10px);
     opacity: 1;
   }
 }
+
 
 @keyframes slide-down {
   0% {
@@ -520,8 +521,8 @@ footer {
     gap: 0;
     flex-direction: column;
     background: #263867ae;
-    border-bottom-left-radius:30px;
-    border-bottom-right-radius:30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9.2px);
     -webkit-backdrop-filter: blur(9.2px);
@@ -560,9 +561,7 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  h2 heading {
-    font-size: 50px;
-  }
+
   .home-content .home-heading {
     font-size: 100px;
     width: auto;
@@ -596,9 +595,16 @@ footer {
     height: 40px;
     font-size: 15px;
   }
+
+ section h2 {
+    font-size: 3rem !important;
+  }
 }
 
 @media screen and (max-width: 450px) {
+   section h2 {
+    font-size: 2rem !important;
+  }
   .home-content .home-heading {
     font-size: 60px;
     width: auto;
