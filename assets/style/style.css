@@ -606,7 +606,7 @@ footer {
     font-size: 2rem !important;
   }
   .home-content .home-heading {
-    font-size: 60px;
+    font-size: 63px;
     width: auto;
     height: auto;
   }
@@ -614,13 +614,14 @@ footer {
     animation: none;
   }
   .home-content .home-heading-2 {
-    font-size: 40px;
+    font-size: 60px;
     width: auto;
     height: auto;
   }
 
   .home-content h3 {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 600;
     white-space: nowrap;
     overflow: hidden;
   }
