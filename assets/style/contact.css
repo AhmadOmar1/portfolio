@@ -6,11 +6,9 @@
   justify-content: center;
 }
 
-.contact-us{
 
-}
 .contact .contactInfo {
-  background-color: rgb(107, 130, 175);
+  background-color:#26305d80;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -20,7 +18,6 @@
 }
 
 .contactInfo .content {
-  border: 2px solid rgb(107, 130, 175);
   border-radius: 5px;
   position: relative;
   cursor: pointer;
@@ -46,7 +43,7 @@
 }
 .contactInfo .content i {
   font-size: 3rem;
-  background-color: #343b52;
+  background-color: #787e921a;
   width: 100px;
   height: 100px;
   text-align: center;
@@ -122,7 +119,7 @@
   background-color: unset;
   width: 100%;
   padding: 1rem;
-  border: 1px solid var(--primary);
+  border: 1px solid var(--mixed-blue);
   color: #fff;
 }
 .form input:not(:first-child),
@@ -135,7 +132,7 @@
   resize: none;
 }
 .form button {
-  background-color: var(--primary);
+  background-color: var(--mixed-blue);
   padding: 1rem 2rem;
   border-radius: 2rem;
   border: none;
