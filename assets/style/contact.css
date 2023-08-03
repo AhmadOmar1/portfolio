@@ -6,15 +6,12 @@
   justify-content: center;
 }
 
-
 .contact .contactInfo {
-  background-color:#26305d80;
+  background-color: #26305d80;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
-
 }
 
 .contactInfo .content {
@@ -138,6 +135,9 @@
   border: none;
   color: #fff;
   cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .contact .heading {
   display: none;
@@ -157,14 +157,13 @@
   }
 }
 
-
 /* Add media query for screen sizes up to 768px */
 @media screen and (max-width: 768px) {
   .contact .heading {
     display: block;
   }
-  .form .heading{
-    display: none ;
+  .form .heading {
+    display: none;
   }
   /* Contact Section */
   .contact .contact-us {
@@ -215,15 +214,13 @@
     line-height: 80px;
   }
 
-  footer{
+  footer {
     font-size: 0.7rem;
   }
- 
 }
 
 @media screen and (max-width: 468px) {
-.form .heading{
-  font-size: 1.5rem !important;
-}
-
+  .form .heading {
+    font-size: 1.5rem !important;
+  }
 }
