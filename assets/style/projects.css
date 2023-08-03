@@ -1,9 +1,16 @@
 /* Projects section */
 .projects {
+  background-color: white !important;
   display: flex;
   flex-direction: column;
   min-height: auto;
   padding-bottom: 5rem;
+  padding: 0;
+}
+.projects .heading{
+  background-color: var(--secondary);
+  padding: 5rem;
+  width: 100%;
 }
 .project-column {
   margin-top: 100px;
@@ -17,16 +24,27 @@
   align-items: center;
   flex-wrap: wrap;
 }
+.content .football{
+   object-fit: cover;
+  margin-top: 30px;
 
+
+
+}
+
+.content .ip-image{
+     object-fit: cover;
+  margin-top: 25px;
+}
 .project-column .project-border {
-  border-top: 2px solid var(--light-accent);
+  border-top: 2px solid var(--secondary);
   position: relative;
   animation-delay: 1s;
   animation: slideDown 1s ease forwards;
 }
 
 .project-content .content {
-  border: solid 2px var(--light-accent);
+  border: solid 2px var(--secondary);
   border-radius: 5px;
   margin-bottom: 2rem;
   cursor: pointer;
@@ -41,7 +59,7 @@
   content: "";
   position: absolute;
   border: 1rem solid transparent;
-  border-top: 1rem solid var(--light-accent);
+  border-top: 1rem solid var(--secondary);
   left: 45%;
   top: 0px;
 }
@@ -53,10 +71,10 @@
   font-size: 1.5rem;
   font-weight: 700;
   transform: translate(-50%, -50%);
-  color: var(--light-accent);
+  color: var(--secondary);
   transition: 0.5s;
   border-radius: 15px;
-  background: rgba(119, 135, 188, 0.391);
+  background: rgba(190, 194, 209, 0.842);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.574);
   backdrop-filter: blur(10.8px);
   -webkit-backdrop-filter: blur(10.8px);
@@ -108,7 +126,12 @@
 }
 .content:hover .details {
   top: 25%;
-  background-color: rgba(35, 48, 91, 0.781);
+  /* From https://css.glass */
+background: rgba(35, 48, 91, 0.781);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px);
   padding: 30px;
 }
 
