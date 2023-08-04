@@ -166,7 +166,7 @@
     position: absolute;
     height: 15px;
     width: 5px;
-    background-color: var(--light-accent);
+    background-color: var(--secondary);
     left: 50%;
     top: 0;
   }
