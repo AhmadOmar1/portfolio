@@ -1,6 +1,6 @@
 /* Common styles for education section */
 .education {
-  background-color: var(--light-accent);
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
