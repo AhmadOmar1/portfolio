@@ -39,7 +39,6 @@
   overflow: hidden;
   width: 90%;
   height: 90%;
-  /* border: solid 2px rgb(81, 88, 109); */
   border-radius: 50%;
   object-fit: cover;
 }
